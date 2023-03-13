@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Botão de Colapso */
+.menu {
+    display: none;
+    
+}
+
+.btn {
+    background-color: #f2f2f2;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
