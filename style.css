@@ -4,21 +4,31 @@
     box-sizing: border-box;
 }
 
-/* Botão de Colapso */
-.menu {
-    display: none;
-    
+.topo {
+    background-color: black;
+    height: 120px;
 }
 
+/* Botão de Colapso */
 .btn {
-    background-color: #f2f2f2;
-    border: none;
-    color: black;
-    padding: 10px 20px;
+
+    
+    border-radius: 50%;
+    
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    color: white;
+    
+    font-stretch: extra-expanded;
+    font-size: 24px;
+    margin: 30px 20px;
     cursor: pointer;
+}
+.btn:hover {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.61);
+}
+
+.menu {
+    display: none;
+    transition: 300ms;
 }
