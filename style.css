@@ -51,6 +51,10 @@ body {
 }
 
 /* Aba da Disciplina */
+.flex-conteudo {
+    display: flex;
+}
+
 .menu {
     display: none;
     transition: 300ms;
