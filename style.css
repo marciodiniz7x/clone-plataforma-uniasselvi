@@ -53,7 +53,7 @@ body {
 /* Aba da Disciplina */
 .flex-conteudo {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
 }
 
 .menu {
