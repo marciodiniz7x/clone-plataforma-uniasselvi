@@ -53,6 +53,7 @@ body {
 /* Aba da Disciplina */
 .flex-conteudo {
     display: flex;
+    justify-content: left;
 }
 
 .menu {
@@ -61,5 +62,13 @@ body {
     background-color: rgb(27, 26, 26);
     width: 300px;
     height: 50px;
+}
+.conteudo {
+    width: 80vw;
+}
+.h1-linha01 {
+    font-family: sans-serif;
+    font-size: 57px;
+    font-weight: 700;
 }
 
