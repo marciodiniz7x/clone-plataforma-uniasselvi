@@ -6,7 +6,7 @@
 
 .topo {
     background-color: black;
-    height: 120px;
+    height: 110px;
 }
 
 /* Botão de Colapso */
@@ -20,7 +20,7 @@
     
     font-stretch: extra-expanded;
     font-size: 24px;
-    margin: 30px 20px;
+    margin: 33px 19px;
     cursor: pointer;
 }
 .btn:hover {
@@ -31,4 +31,20 @@
 .menu {
     display: none;
     transition: 300ms;
+}
+
+.material-icons {
+
+    color: white;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
 }
