@@ -25,27 +25,27 @@
     
 	<div class="pagina-completa">
 
-        <!-- cabeçalho -->
-        <header class="topo">
+         <!-- Cria um botão de colapso -->
+         <button type="button" class="btn " onclick="toggleMenu()">
+            <i class="material-icons">menu</i>
+        </button>
 
-             <!-- Cria um botão de colapso -->
-            <button type="button" class="btn " onclick="toggleMenu()">
-                <i class="material-icons">menu</i>
-            </button>
-            
-        </header>
+        <!-- cabeçalho -->
+        <nav class="topo"></nav>
 
         <!-- Conteúdo em Flexbox: Menu lateral e Conteúdo -->
         <div class="flex-conteudo">
             
             <!-- Cria o menu que será colapsado -->
             
-
-            <div id="menu" class="menu">
-                <div class="lateral-title">JavaScript Descomplicado</div>
-                <div class="lateral-inicio">JavaScript Descomplicado</div>
+            
+            <div class="lateral">
+                <div id="menu" class="menu">
+                    <div class="lateral-title">JavaScript Descomplicado</div>
+                    <div class="lateral-inicio">JavaScript Descomplicado</div>
+                </div>
             </div>
-
+            
             <!-- Cria o Conteúdo da página -->
             <div class="conteudo">
                 

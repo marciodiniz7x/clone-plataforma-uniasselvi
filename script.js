@@ -10,24 +10,23 @@ function toggleMenu() {
     if (menu.style.display === "none") {
 
         menu.style.display = "block";
-        bannerShadow.style.borderLeft = "2px solid #E6E6E6";
-        rodape.style.borderLeft = "2px solid #E6E6E6";
-        // Modifica o cabeçalho:
-        topo.style.position = 'var(--position-static)';
-        topo.style.background = 'var(--bg-preto)';
-        topo.style.transition = '0s';
         
+        // rodape.style.borderLeft = "2px solid #E6E6E6";
+        // Modifica o cabeçalho:
+        
+        setTimeout(() => {
+            topo.style.backgroundColor = 'var(--bg-preto)';
+        }, 10);
         
         
     } else {
 
         menu.style.display = "none";
-        bannerShadow.style.borderLeft = "none";
-        rodape.style.borderLeft = "none";
+        // bannerShadow.style.borderLeft = "none";
         // Modifica o cabeçalho:
-        topo.style.position = 'var(--position-fixed)';
+        
         topo.style.background = 'var(--bg-preto-transparente)';
-        topo.style.transition = '300ms';
+        
         
     }
 }
