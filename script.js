@@ -12,7 +12,7 @@ function toggleMenu() {
         menu.style.display = "block";
         bannerShadow.style.borderLeft = "2px solid #E6E6E6";
         rodape.style.borderLeft = "2px solid #E6E6E6";
-
+        // Modifica o cabeçalho:
         topo.style.position = 'var(--position-static)';
         topo.style.background = 'var(--bg-preto)';
         
@@ -21,6 +21,9 @@ function toggleMenu() {
         menu.style.display = "none";
         bannerShadow.style.borderLeft = "none";
         rodape.style.borderLeft = "none";
+        // Modifica o cabeçalho:
+        topo.style.position = 'var(--position-fixed)';
+        topo.style.background = 'var(--bg-preto-transparente)';
         
     }
 }

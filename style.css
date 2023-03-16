@@ -8,7 +8,7 @@
     --position-static: static;
     --position-fixed: fixed;
     --bg-preto: black;
-    --bg-preto-transparente: linear-gradient(to left, rgba(224, 216, 216, 0.2), rgba(0, 0, 0, 0.9));
+    --bg-preto-transparente: linear-gradient(to left, rgba(14, 13, 13, 0.363), rgba(0, 0, 0, 0.9));
 }
 
 body {
