@@ -4,13 +4,17 @@ function toggleMenu() {
     const menu = document.getElementById("menu");
     const bannerShadow = document.querySelector('.banner-inicio');
     const rodape = document.querySelector('.footer01');
-    if (menu.style.display === "block") {
-        menu.style.display = "none";
-        bannerShadow.style.borderLeft = "none";
-        rodape.style.borderLeft = "none";
-    } else {
+    if (menu.style.display === "none") {
+
         menu.style.display = "block";
         bannerShadow.style.borderLeft = "2px solid #E6E6E6";
         rodape.style.borderLeft = "2px solid #E6E6E6";
+        
+    } else {
+        
+        menu.style.display = "none";
+        bannerShadow.style.borderLeft = "none";
+        rodape.style.borderLeft = "none";
+        
     }
 }

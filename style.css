@@ -12,9 +12,11 @@ body {
 }
 
 .topo {
+    
     background-color: black;
     height: 110px;
-    
+    background: linear-gradient(to left, rgba(224, 216, 216, 0.2), rgba(0, 0, 0, 0.9));
+    z-index: 99;
 }
 
 /* Botão de Colapso */
@@ -61,7 +63,7 @@ body {
 
 }
 .menu {
-    display: none;
+    display: block;
     transition: 300ms;
 
     height: 50px;
@@ -70,9 +72,20 @@ body {
     padding: 16px;
     padding-bottom: 120px;
     height: auto;
+    transition-duration: 300ms;
 
 }
 .lateral-title {
+    background-color: #E6E6E6;
+    color: black;
+    width: 268px;
+    line-height: 1.2;
+    padding: 12px 16px;
+    
+    letter-spacing: 0.4px;
+    border-radius: 8px;
+}
+.lateral-inicio {
     background-color: #E6E6E6;
     color: black;
     width: 268px;
@@ -112,7 +125,7 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     position: relative;
-    border-left: 0px solid #E6E6E6;
+    border-left: 2px solid #E6E6E6;
     
     width: 100vw;
     height: 100vh;
@@ -181,7 +194,7 @@ body {
     color: #fff;
     text-align: center;
     padding-top: 10px;
-    border-left: 0px solid #E6E6E6;
+    border-left: 2px solid #E6E6E6;
 }
 
 /* Scrollbar */
@@ -194,7 +207,7 @@ background-color: #f5f5f5;
 }
 
 ::-webkit-scrollbar-thumb {
-background-color: #eead2d;
+background-color: #555;
 }
 
 ::-webkit-scrollbar {
@@ -207,7 +220,7 @@ background-color: #f5f5f5;
 }
 
 ::-webkit-scrollbar-thumb {
-background-color: #eead2d;
+background-color: #555;
 
 }
 
