@@ -143,16 +143,18 @@ body {
   
 .banner-inicio {
 
+    object-fit: cover;
     position: relative;
     max-width: 100%;
     overflow-x: hidden;
-    
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
     background-color: rgb(209, 66, 66);
-    background: url(seu_video.mp4) no-repeat center center fixed;
-    background-size: 100%;
-    
+    background: url(back-video01.webm) no-repeat center center;
+    background-size: cover;
+    margin: 0;
     padding: 10px 80px;
     
 }
