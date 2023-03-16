@@ -26,30 +26,53 @@
 	<div class="pagina-completa">
 
         <!-- cabeçalho -->
-        <div class="topo">
+        <header class="topo">
 
              <!-- Cria um botão de colapso -->
             <button type="button" class="btn " onclick="toggleMenu()">
                 <i class="material-icons">menu</i>
             </button>
-
             
-            
-        </div>
+        </header>
 
         <!-- Conteúdo em Flexbox: Menu lateral e Conteúdo -->
         <div class="flex-conteudo">
             
             <!-- Cria o menu que será colapsado -->
             <div id="menu" class="menu">
-                <div class="nome-disciplina">Perspectivas Profissionais</div>
+                <div class="lateral-title">JavaScript Descomplicado</div>
             </div>
 
             <!-- Cria o Conteúdo da página -->
             <div class="conteudo">
-                <h1 class="h1-linha01">INTRODUÇÃO</h1>
-                <h1 class="h1-linha02">AO JAVASCRIPT</h1>
+
+                <div class="banner-inicio">
+                    <video autoplay muted loop id="bg-video">
+                        <source src="../img/back-video01.webm" type="video/webm">
+                    </video>
+                    
+                    <div class="video-overlay"></div>
+
+                    <div class="banner-text">
+                        <div class="titulo-conteudo">
+                            <h1 class="h1-linha01">JAVASCRIPT</h1>
+                            <h1 class="h1-linha02">DESCOMPLICADO</h1>
+                        </div>
+                        <div class="conteudo-intro">
+                            Seja bem-vindo(a) ao curso introdutório para desenvolvimento front-end. Esse material permitirá que você seja capaz de criar páginas, sites e aplicações web utilizando HTML, CSS e JavaScript. Vamos lá!
+                        </div>
+                        <a href="./unidade1.html" class="banner-botao">
+                            INICIAR ESTUDO
+                        </a>
+                    </div>
+
+                    
+                </div>
+
+                <footer class="footer01"></footer>
+
             </div>
+
         </div>
     </div>
 </body>

@@ -8,75 +8,213 @@ body {
     font-family: "Rubik";
     font-size: 18px;
     font-weight: 400;
+    
 }
 
 .topo {
     background-color: black;
     height: 110px;
+    
 }
 
 /* Botão de Colapso */
 .btn {
-
     
     border-radius: 50%;
-    
-    text-align: center;
+   
     color: white;
+    width: 40px;
+    height: 40px;
     
-    font-stretch: extra-expanded;
-    font-size: 24px;
-    margin: 33px 19px;
+    
+    padding: 10px;
+    margin: 36px 22px;
     cursor: pointer;
 }
 .btn:hover {
     color: white;
     background-color: rgba(128, 128, 128, 0.61);
 }
-
 .material-icons {
-
-    color: white;
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;  /* Preferred icon size */
-    display: inline-block;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
+    margin: -3px;
+    box-sizing: border-box;
 }
 
 /* Aba da Disciplina */
 .flex-conteudo {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    overflow-x: hidden;
+    
 }
 
-.menu {
+.sidebar {
     display: none;
     transition: 300ms;
-    background-color: rgb(27, 26, 26);
-    width: 300px;
+
     height: 50px;
 
     box-sizing: border-box;
     padding: 16px;
     padding-bottom: 120px;
     height: auto;
+
+}
+.menu {
+    display: none;
+    transition: 300ms;
+
+    height: 50px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    padding: 16px;
+    padding-bottom: 120px;
+    height: auto;
+
+}
+.lateral-title {
+    background-color: #E6E6E6;
+    color: black;
+    width: 268px;
+    line-height: 1.2;
+    padding: 12px 16px;
+    
+    letter-spacing: 0.4px;
+    border-radius: 8px;
 }
 
-/* Conteúdo da Página */
-.conteudo {
+/* Aba Conteúdo da Página */
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    
+}
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(224, 216, 216, 0.2), rgba(0, 0, 0, 0.9));
+    z-index: -1;
+
+    max-width: 100%;
+    overflow-x: hidden;
+   
+}
+  
+.banner-inicio {
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    border-left: 0px solid #E6E6E6;
+    
     width: 100vw;
+    height: 100vh;
+    background-color: rgb(209, 66, 66);
+    background: url(seu_video.mp4) no-repeat center center fixed;
+    background-size: 100%;
+    
+    padding: 10px 80px;
+    
 }
 
-.h1-linha01 {
-    font-family: sans-serif;
-    font-size: 57px;
-    font-weight: 700;
+.banner-text {
+    
+    transform: translateY(60px);
+    display: inline-block;
+    margin-top: 170px;
+    margin-right: 500px;
+    
 }
+.titulo-conteudo {
+    position: relative;
+    display: inline-block;
+    
+}
+.h1-linha01 {
+    font-family: "NeoSans";
+    font-size: 57px;
+    font-weight: 900;
+    color: white;   
+}
+.h1-linha02 {
+    font-family: "NeoSans";
+    font-size: 72px;
+    font-weight: 900;
+    color: #eead2d;   
+}
+.conteudo-intro {
+    margin: 20px 0;
+    max-width: 60ch;
+    line-height: 1.7;
+    color: #fff;
+}
+.banner-botao {
+    display: block;
+    width: fit-content;
+    text-transform: uppercase;
+    padding: 8px 25px;
+    font-family: "Rubik";
+    text-decoration: none;
+    background-color: #eead2d;
+    font-stretch: expanded;
+    border-radius: 5px;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 40px 0;
+    
+}
+
+.footer01 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    border-left: 0px solid #E6E6E6;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+  
+::-webkit-scrollbar-track {
+background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: #eead2d;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background-color: #f5f5f5;
+
+}
+
+::-webkit-scrollbar-thumb {
+background-color: #eead2d;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+background-color: #555;
+}
+  
+  
+
 
