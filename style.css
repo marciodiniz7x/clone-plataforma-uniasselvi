@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --position-static: static;
+    --position-fixed: fixed;
+    --bg-preto: black;
+    --bg-preto-transparente: linear-gradient(to left, rgba(224, 216, 216, 0.2), rgba(0, 0, 0, 0.9));
+}
+
 body {
     font-family: "Rubik";
     font-size: 18px;
@@ -13,10 +20,15 @@ body {
 
 .topo {
     
-    background-color: black;
+    position: var(--position-static);
+    background: var(--bg-preto);
+    width: 100%;
     height: 110px;
-    background: linear-gradient(to left, rgba(224, 216, 216, 0.2), rgba(0, 0, 0, 0.9));
     z-index: 99;
+    
+}
+.topo-degrade {
+    
 }
 
 /* Botão de Colapso */
