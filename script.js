@@ -1,7 +1,7 @@
 
 // Função para o botão de colapso
 function toggleMenu() {
-    const menu = document.getElementById("menu");
+    const menu = document.querySelector(".lateral");
     const bannerShadow = document.querySelector('.banner-inicio');
     const rodape = document.querySelector('.footer01');
 

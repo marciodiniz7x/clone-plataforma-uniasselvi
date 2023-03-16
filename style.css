@@ -23,9 +23,10 @@ body {
     display: flex;
     position: fixed;
     background: var(--bg-preto);
+    overflow-y: auto;
     width: 100%;
     height: 110px;
-    
+    color: white;
     transition: all 300ms ease-in-out;
     z-index: 90;
 }
@@ -40,7 +41,6 @@ body {
     color: white;
     width: 40px;
     height: 40px;
-    
     
     padding: 10px;
     margin: 36px 22px;
@@ -69,23 +69,31 @@ body {
     opacity: 1;
     transform: translateX(0);
     box-shadow: var(--box-shadow);
-    
-}
-.menu {
-
-    
-    position: relative;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    padding: 16px;
-    padding-bottom: 120px;
 
     transform: translateX(0%);
     transition: transform 300ms;
     
+}
+.menu {
+
+    margin-top: 100px;
+    border: 1px solid red;
+    position: relative;
+    width: 100%;
+    height: auto;
+   
+    padding: 16px;
+    padding-bottom: 120px;
 
 }
+
+.grupo01{
+    margin: 8px 0;
+    width: 100%;
+    padding-bottom: 12px;
+    border-bottom: 1px solid;
+}
+
 .lateral-title {
 
     
