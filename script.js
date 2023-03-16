@@ -15,6 +15,7 @@ function toggleMenu() {
         // Modifica o cabeçalho:
         topo.style.position = 'var(--position-static)';
         topo.style.background = 'var(--bg-preto)';
+        topo.style.transition = '300ms';
         
     } else {
 
@@ -24,6 +25,7 @@ function toggleMenu() {
         // Modifica o cabeçalho:
         topo.style.position = 'var(--position-fixed)';
         topo.style.background = 'var(--bg-preto-transparente)';
+        topo.style.transition = '300ms';
         
     }
 }
