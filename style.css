@@ -147,8 +147,6 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     
-    /* border-left: 2px solid #E6E6E6; */
-    
     width: 100vw;
     height: 100vh;
     background-color: rgb(209, 66, 66);
