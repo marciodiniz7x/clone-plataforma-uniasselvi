@@ -76,8 +76,7 @@ body {
 }
 .menu {
 
-    margin-top: 100px;
-    border: 1px solid red;
+    margin-top: 110px;
     position: relative;
     width: 100%;
     height: auto;
@@ -87,11 +86,11 @@ body {
 
 }
 
-.grupo01{
+.grupo01, .grupo02, .grupo03{
     margin: 8px 0;
     width: 100%;
     padding-bottom: 12px;
-    border-bottom: 1px solid;
+    
 }
 
 .lateral-title {

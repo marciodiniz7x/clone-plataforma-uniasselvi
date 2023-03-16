@@ -1,32 +1,26 @@
 
 // Função para o botão de colapso
 function toggleMenu() {
-    const menu = document.querySelector(".lateral");
+    const lateral = document.querySelector(".lateral");
     const bannerShadow = document.querySelector('.banner-inicio');
     const rodape = document.querySelector('.footer01');
 
     const topo = document.querySelector('.topo');
+    let menuAberto = true;
 
-    if (menu.style.display === "none") {
+    if (menuAberto === false) {
 
-        menu.style.display = "block";
-        
-        // rodape.style.borderLeft = "2px solid #E6E6E6";
-        // Modifica o cabeçalho:
-        
-        setTimeout(() => {
-            topo.style.backgroundColor = 'var(--bg-preto)';
-        }, 10);
-        
+        alert('menu aberto')
+
+        lateral.style.transform = "translateX(0%)";
+        topo.style.backgroundColor = 'var(--bg-preto)';
+        menuAberto = true;
         
     } else {
 
-        menu.style.display = "none";
-        // bannerShadow.style.borderLeft = "none";
-        // Modifica o cabeçalho:
-        
+        alert('menu fechado')
+        lateral.style.transform = "translateX(-100%)";
         topo.style.background = 'var(--bg-preto-transparente)';
-        
-        
+        menuAberto = false;
     }
 }
