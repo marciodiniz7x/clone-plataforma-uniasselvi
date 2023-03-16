@@ -14,6 +14,7 @@ function toggleMenu() {
         rodape.style.borderLeft = "2px solid #E6E6E6";
 
         topo.style.position = 'var(--position-static)';
+        topo.style.background = 'var(--bg-preto)';
         
     } else {
 
