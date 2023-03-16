@@ -5,6 +5,13 @@
 }
 
 :root {
+    /* Light mode */
+    --bg-branco: white;
+    --title-color: #46360b;
+    --text-color: black;
+    /* Dark mode */
+    --bg-escuro: #343541;
+    /* Geral */
     --box-shadow: 0 0 0 2px #E6E6E6;
     --position-static: static;
     --position-fixed: fixed;
@@ -93,19 +100,7 @@ body {
     
 }
 
-.lateral-title {
-
-    
-    background-color: #E6E6E6;
-    color: black;
-    width: 268px;
-    line-height: 1.2;
-    padding: 12px 16px;
-    
-    letter-spacing: 0.4px;
-    border-radius: 8px;
-}
-.lateral-inicio {
+.abas {
     background-color: #E6E6E6;
     color: black;
     width: 268px;
