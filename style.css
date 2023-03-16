@@ -18,13 +18,11 @@ body {
 }
 
 .topo {
-    
     position: var(--position-static);
     background: var(--bg-preto);
     width: 100%;
     height: 110px;
     z-index: 99;
-    
 }
 .topo-degrade {
     
