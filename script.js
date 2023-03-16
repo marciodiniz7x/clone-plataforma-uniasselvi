@@ -8,7 +8,6 @@ function toggleMenu() {
 
     const topo = document.querySelector('.topo');
 
-
     if (menuAberto === false) {
         
         lateral.style.transform = "translateX(-100%)";
