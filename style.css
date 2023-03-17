@@ -177,7 +177,7 @@ img {
     width: 100vw;
     height: 100vh;
     background-color: rgb(209, 66, 66);
-    background: url(back-video01.webm) no-repeat center center;
+    background: url(/img/back-video01.webm) no-repeat center center;
     background-size: cover;
     margin: 0;
     padding: 10px 80px;
