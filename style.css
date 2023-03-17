@@ -118,7 +118,7 @@ img {
     border-radius: 8px;
 }
 
-.inicio-botao, .unidade1-botao {
+.uni-btn {
    
     display: flex;
     align-items: center;
@@ -133,7 +133,7 @@ img {
     cursor: pointer;
     line-height: 1em;
 }
-.inicio-descr, .unidade1-descr {
+.uni-title {
     
     display: flex;
     align-items: center;
