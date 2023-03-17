@@ -108,7 +108,7 @@ img {
 }
 
 .abas {
-    background: linear-gradient(to right, #f3b2001e, #1a8ae61a);    
+    background: linear-gradient(to right, #faf3e0, #ebf4fc);    
     color: black;
     width: 268px;
     line-height: 1.2;
@@ -191,6 +191,7 @@ img {
     margin-top: 170px;
     margin-right: 500px;
     
+    
 }
 .titulo-conteudo {
     position: relative;
@@ -201,7 +202,7 @@ img {
     font-family: "NeoSans";
     font-size: 57px;
     font-weight: 900;
-    color: white;   
+    color: #ebf4fc;   
 }
 .h1-linha02 {
     font-family: "NeoSans";
@@ -213,7 +214,7 @@ img {
     margin: 20px 0;
     max-width: 60ch;
     line-height: 1.7;
-    color: #fff;
+    color: #ebf4fc;
 }
 .banner-botao {
     display: block;
@@ -222,7 +223,7 @@ img {
     padding: 8px 25px;
     font-family: "Rubik";
     text-decoration: none;
-    background: linear-gradient();
+    background-color: #eead2d;
     font-stretch: expanded;
     border-radius: 5px;
     color: black;
