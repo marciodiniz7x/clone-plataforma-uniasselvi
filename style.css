@@ -97,7 +97,7 @@ img {
     height: 24px;
     width: 24px;
     object-fit: contain;
-    vertical-align: center;
+    
 }
 .grupo01, .grupo02, .grupo03{
     
@@ -118,10 +118,11 @@ img {
     border-radius: 8px;
 }
 
-.inicio-botao {
+.inicio-botao, .unidade1-botao {
+    
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 8px 16px;
     font-size: 1em;
     border: 0;
@@ -132,17 +133,12 @@ img {
     cursor: pointer;
     line-height: 1em;
 }
-.inicio-descr {
-    margin-right: 152px;
+.inicio-descr, .unidade1-descr {
+    border: 1px solid red;
     display: flex;
     align-items: center;
     gap: 16px;
 }
-
-/* .inicio-botao span, .unidade01 span {
-    text-align: top;
-    margin-left: 12px;
-} */
 
 /* Aba Conteúdo da Página */
 #bg-video {
