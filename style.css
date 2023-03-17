@@ -108,7 +108,8 @@ img {
 }
 
 .abas {
-    background: linear-gradient(to right, #f3b20028, #1a8ae61a);    color: black;
+    background: linear-gradient(to right, #f3b2001e, #1a8ae61a);    
+    color: black;
     width: 268px;
     line-height: 1.2;
     padding: 12px 16px;
@@ -128,7 +129,7 @@ img {
     border-radius: 8px;
     margin: 1em 0;
     width: 100%;
-    background: #fafafa;
+    background: #fffef5b7;
     cursor: pointer;
     line-height: 1em;
 }
@@ -221,7 +222,7 @@ img {
     padding: 8px 25px;
     font-family: "Rubik";
     text-decoration: none;
-    background-color: #eead2d;
+    background: linear-gradient();
     font-stretch: expanded;
     border-radius: 5px;
     color: black;
