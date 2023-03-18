@@ -64,6 +64,10 @@ body {
 }
 
 /* Aba da Disciplina */
+.conteudo {
+    padding-left: 280px;
+}
+
 .flex-conteudo {
     position: relative;
     display: flex;
@@ -72,11 +76,13 @@ body {
     left: 0;
     width: 100%;
     min-height: 100vh;
-    margin-bottom: ;
+    
 }
 
 .lateral {
-    position: relative;
+    position: fixed;
+    top: 0;
+    bottom: 0;
     border: 1px;
     opacity: 1;
     transform: translateX(0);
