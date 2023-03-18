@@ -142,8 +142,10 @@ img {
     margin: 1em 0;
     width: 100%;
     background: #fafafa;
+    color: black;
     cursor: pointer;
     line-height: 1em;
+    text-decoration: none;
 }
 .uni-title {
     
@@ -200,8 +202,8 @@ img {
     
     transform: translateY(60px);
     display: inline-block;
-    margin-top: 170px;
-    margin-right: 500px;
+    margin-top: 240px;
+    margin-left: 20px;
     
 }
 .titulo-conteudo {
