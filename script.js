@@ -11,7 +11,7 @@ function toggleMenu() {
     if (menuAberto === false) {
         
         lateral.style.transform = "translateX(-100%)";
-        banner.style.left = '-300px';
+        banner.style.left = '-280px';
         lateral.style.boxShadow = 'none';
         topo.style.background = 'var(--bg-preto-transparente)';
         menuAberto = true;
