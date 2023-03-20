@@ -1,6 +1,7 @@
 
 let menuAberto = false;
 const subitem01 = document.querySelector('.subitem01');
+const uniBtn = document.querySelector('.uni-btn');
 // Função para o botão de colapso
 function toggleMenu() {
     const lateral = document.querySelector(".lateral");
@@ -28,8 +29,4 @@ function toggleMenu() {
 
 }
 
-// Evento que muda a cor do subitem quando navegando por ele
-subitem01.addEventListener('click', () => {
-    
-    subitem01.classList.add('clickado');
-});
+// Retrai o conteúdo da unidade
