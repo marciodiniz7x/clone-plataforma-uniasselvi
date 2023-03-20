@@ -154,7 +154,27 @@ img {
     gap: 16px;
     margin-left: 0;
 }
+.subitem01{
+    align-items: center;
+    place-items: center start;
+    text-align: left;
+    
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    margin-left: 2em;
+    font-family: "Rubik", sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 12px 16px;
+    border-radius: 8px;
+    height: auto;
+    width: auto;
+    position: relative;
+    cursor: pointer;
+    margin: 0.5em 0 0.5em 1em;
+} 
 
+/* //////////////////////// */
 /* Aba Conteúdo da Página */
 #bg-video {
     position: absolute;
