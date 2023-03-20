@@ -175,10 +175,7 @@ img {
     margin: 0.4em 0 0.5em 2em;
 } 
 
-.subitem01:hover, .subitem01:active {
-    background: linear-gradient(to right, #f0efef, #f1f7fd);
 
-}
 .subitem01.clickado {
     background-color: plum !important;
 }

@@ -24,24 +24,12 @@ function toggleMenu() {
         topo.style.backgroundColor = 'var(--bg-preto)';
         menuAberto = false;
         lateral.style.boxShadow = '';
-        
     }
 
 }
 
 // Evento que muda a cor do subitem quando navegando por ele
 subitem01.addEventListener('click', () => {
-
-    event.preventDefault();
-
-      // adiciona a classe 'clickado' com um pequeno atraso
-    setTimeout(function() {
-        subitem01.classList.add('clickado');
-    }, 10);
-
-    // redireciona para a página do link após um breve atraso
-    setTimeout(function() {
-        window.location = subitem01.href;
-    }, 100);
-
+    
+    subitem01.classList.add('clickado');
 });
