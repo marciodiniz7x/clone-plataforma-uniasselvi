@@ -155,12 +155,13 @@ img {
     margin-left: 0;
 }
 .subitem01{
+    
     align-items: center;
     place-items: center start;
     text-align: left;
     
     display: grid;
-    grid-template-columns: 40px 3fr;
+    grid-template-columns: 40px 1fr;
     margin-left: 2em;
     
     text-decoration: none;
@@ -171,8 +172,16 @@ img {
     width: auto;
     
     cursor: pointer;
-    margin: 0.5em 0 0.5em 1em;
+    margin: 0.4em 0 0.5em 2em;
 } 
+
+.subitem01:hover, .subitem01:active {
+    background: linear-gradient(to right, #f0efef, #f1f7fd);
+
+}
+.subitem01.clickado {
+    background-color: plum !important;
+}
 
 /* //////////////////////// */
 /* Aba Conteúdo da Página */
