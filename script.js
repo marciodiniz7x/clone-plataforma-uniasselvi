@@ -1,12 +1,12 @@
 
 let menuAberto = false;
 const subitem01 = document.querySelector('.subitem01');
-const uniBtn = document.querySelector('.uni-btn');
+const containerUni01 = document.querySelector('.container-uni01');
+const setaUni01 = document.querySelector('.seta-uni01');
 // Função para o botão de colapso
 function toggleMenu() {
     const lateral = document.querySelector(".lateral");
     const banner = document.querySelector('.banner-inicio');
-    const rodape = document.querySelector('.footer01');
 
     const topo = document.querySelector('.topo');
 
@@ -30,3 +30,9 @@ function toggleMenu() {
 }
 
 // Retrai o conteúdo da unidade
+containerUni01.addEventListener('click', () => {
+    subitem01.classList.toggle('sumir');
+    if (setaUni01.innerHTML === 'expand_more') {
+        setaUni01.innerHTML = 'expand_less';
+    }
+})
