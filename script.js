@@ -34,5 +34,7 @@ containerUni01.addEventListener('click', () => {
     subitem01.classList.toggle('sumir');
     if (setaUni01.innerHTML === 'expand_more') {
         setaUni01.innerHTML = 'expand_less';
+    } else {
+        setaUni01.innerHTML = 'expand_more';
     }
 })
