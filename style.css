@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'NeoSans';
+    src: url('fonts/NeoSans-Black.otf') format('opentype');
+}
+
 :root {
     /* Light mode */
     --bg-branco: white;
