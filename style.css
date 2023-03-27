@@ -71,10 +71,7 @@ body {
 /* Título do Conteúdo */
 .top-bar {
     position: fixed;
-   
-    border: 1px solid red;
     color: white;
-    
     padding: 10px;
     margin: 36px 22px;
     left: 50%;
