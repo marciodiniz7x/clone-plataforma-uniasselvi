@@ -46,7 +46,7 @@ body {
 
 /* Botão de Colapso */
 .btn {
-    
+
     position: fixed;
     border-radius: 50%;
    
@@ -81,7 +81,6 @@ body {
     left: 0;
     width: 100%;
     min-height: 100vh;
-    
 }
 
 .lateral {
@@ -96,7 +95,6 @@ body {
     transform: translateX(0%);
     transition: transform 300ms;
     z-index: 1;
-    
 }
 .menu {
 
@@ -104,7 +102,6 @@ body {
     position: relative;
     width: 100%;
     height: auto;
-   
     padding: 16px;
     padding-bottom: 120px;
 
@@ -114,14 +111,11 @@ img {
     height: 24px;
     width: 24px;
     object-fit: contain;
-    
 }
 .grupo01, .grupo02, .grupo03{
-    
     margin: 8px 0;
     width: 100%;
-    padding-bottom: 12px;
-    
+    padding-bottom: 12px; 
 }
 
 .abas {
@@ -130,7 +124,6 @@ img {
     width: 268px;
     line-height: 1.2;
     padding: 12px 16px;
-    
     letter-spacing: 0.4px;
     border-radius: 8px;
 }
