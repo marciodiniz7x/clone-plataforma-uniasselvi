@@ -25,6 +25,11 @@
     --bg-preto-transparente: linear-gradient(to left, rgba(14, 13, 13, 0.363), rgba(0, 0, 0, 0.9));
 }
 
+.destacar {
+    color: rgb(230, 172, 98);
+    font-weight: 500;
+}
+
 body {
     font-family: "Rubik";
     font-size: 18px;
