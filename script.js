@@ -1,6 +1,8 @@
 
 let menuAberto = false;
 const subitem01 = document.querySelector('.subitem01');
+const subitem02 = document.querySelector('.subitem02');
+const subitem03 = document.querySelector('.subitem03');
 const containerUni01 = document.querySelector('.container-uni01');
 const setaUni01 = document.querySelector('.seta-uni01');
 // Função para o botão de colapso
@@ -31,10 +33,14 @@ function toggleMenu() {
 
 // Retrai o conteúdo da unidade
 containerUni01.addEventListener('click', () => {
+
     subitem01.classList.toggle('sumir');
+    subitem02.classList.toggle('sumir');
+    subitem03.classList.toggle('sumir');
     if (setaUni01.innerHTML === 'expand_more') {
         setaUni01.innerHTML = 'expand_less';
     } else {
         setaUni01.innerHTML = 'expand_more';
     }
+    
 })

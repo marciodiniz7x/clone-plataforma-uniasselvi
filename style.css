@@ -26,7 +26,7 @@
 }
 
 .destacar {
-    color: rgb(230, 172, 98);
+    color: #e6ac62;
     font-weight: 500;
 }
 
@@ -169,7 +169,9 @@ img {
     gap: 16px;
     margin-left: 0;
 }
-.subitem01{
+
+
+.subitens{
     
     align-items: center;
     place-items: center start;
@@ -189,11 +191,6 @@ img {
     cursor: pointer;
     margin: 0.4em 0 0.5em 2em;
 } 
-
-
-.subitem01.clickado {
-    background-color: plum !important;
-}
 
 /* //////////////////////// */
 /* Aba Conteúdo da Página */
@@ -340,12 +337,16 @@ background-color: #555;
 
 /* Página Unidade 01 */
 
+.subitem-atual {
+    background-color: #f5e2ca;
+    border: 2px solid #e6ac62;
+}
+
 .banner-text-uni01 {
     background-color: #fafafa;
-    width: 50vw;
+    width: auto;
     border-radius:8px;
     padding: 20px;
-    
 }
 
 .uni-section-title {
@@ -353,6 +354,12 @@ background-color: #555;
     font-weight: 500;
     margin-bottom:10px;
     margin-left: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .banner-text-uni01 {
+      width: 50vw;
+    }
 }
 
 .h1-linha01-uni01 {
@@ -366,5 +373,5 @@ background-color: #555;
 
 .conteudo-intro-uni01 {
     color: black;
-
 }
+
