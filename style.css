@@ -240,9 +240,16 @@ img {
     
     transform: translateY(60px);
     display: inline-block;
+    width: auto;
     margin-top: 240px;
     margin-left: 20px;
     
+}
+
+@media screen and (max-width: 1200px) {
+    .banner-text {
+      width: 50vw;
+    }
 }
 .titulo-conteudo {
     position: relative;
@@ -362,16 +369,19 @@ background-color: #555;
     }
 }
 
-.h1-linha01-uni01 {
+.h1-linha01-tpc01, .h1-linha01-tpc02, .h1-linha01-tpc03 {
     color: rgb(82, 80, 80);
     font-size: 2em;
 }
 
-.h1-linha02-unid02 {
+.h1-linha02-tpc01, .h1-linha02-tpc02, .h1-linha02-tpc03 {
     color: #adadad;
 }
 
-.conteudo-intro-uni01 {
+.conteudo-intro-tpc01, 
+.conteudo-intro-tpc02,
+.conteudo-intro-tpc03 {
+
     color: black;
 }
 
