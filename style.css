@@ -333,4 +333,32 @@ background-color: #555;
     display: none;
 }
 
+/* Página Unidade 01 */
 
+.banner-text-uni01 {
+    background-color: #fafafa;
+    width: 50vw;
+    border-radius:8px;
+    padding: 20px;
+    
+}
+
+.uni-section-title {
+    color: #adadad;
+    font-weight: 500;
+    margin-bottom:10px;
+}
+
+.h1-linha01-uni01 {
+    color: rgb(82, 80, 80);
+    font-size: 2em;
+}
+
+.h1-linha02-unid02 {
+    color: #adadad;
+}
+
+.conteudo-intro-uni01 {
+    color: black;
+
+}
