@@ -68,6 +68,19 @@ body {
     box-sizing: border-box;
 }
 
+/* Título do Conteúdo */
+.top-bar {
+    position: fixed;
+    border-radius: 50%;
+   
+    color: white;
+    
+    padding: 10px;
+    margin: 36px 22px;
+    cursor: pointer;
+    z-index: 99;
+}
+
 /* Aba da Disciplina */
 .conteudo {
     padding-left: 280px;
