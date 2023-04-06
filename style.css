@@ -26,7 +26,7 @@
 }
 
 .destacar {
-    color: #e6ac62;
+    color: #a78bcc;
     font-weight: 500;
 }
 
@@ -136,7 +136,7 @@ img {
 }
 
 .abas {
-    background: linear-gradient(to right, #f0efef, #f1f7fd);    
+    background: linear-gradient(to right, #e6d5fd, #eee6f8);    
     color: black;
     width: 268px;
     line-height: 1.2;
@@ -156,7 +156,7 @@ img {
     border-radius: 8px;
     margin: 1em 0;
     width: 100%;
-    background: #fafafa;
+    background: #f4eefd;
     color: black;
     cursor: pointer;
     line-height: 1em;
@@ -266,7 +266,7 @@ img {
     font-family: "NeoSans";
     font-size: 72px;
     font-weight: 900;
-    color: #eead2d;   
+    color: #ceaef7;   
 }
 .conteudo-intro {
     margin: 20px 0;
@@ -281,7 +281,7 @@ img {
     padding: 8px 25px;
     font-family: "Rubik";
     text-decoration: none;
-    background-color: #eead2d;
+    background-color: #ceaef7;
     font-stretch: expanded;
     border-radius: 5px;
     color: black;
@@ -329,7 +329,7 @@ background-color: #f5f5f5;
 }
 
 ::-webkit-scrollbar-thumb {
-background-color: #555;
+background-color: #a78bcc;
 
 }
 
@@ -345,8 +345,8 @@ background-color: #555;
 /* Página Unidade 01 */
 
 .subitem-atual {
-    background-color: #f5e2ca;
-    border: 2px solid #e6ac62;
+    background-color: #f2e9fd;
+    border: 2px solid #ceaef7;
 }
 
 .banner-text-uni01 {
