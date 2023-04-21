@@ -293,14 +293,15 @@ img {
 .botao-sub-page01 {
     margin-top: 100px;
     margin-left: 20px;
-    background-color: #a78bcc;
+    background-color: #555;
     color: white;
+    box-shadow: 1px 1px 10px 1px #adadad;
 }
 
 .botao-iniciar:hover {
     background-color: #fafafa;
     color: #555;
-    box-shadow: 1px 1px 10px 1px #adadad;
+    
 } 
 
 .footer01 {
